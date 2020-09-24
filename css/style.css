@@ -1,0 +1,56 @@
+/* CSS Document */
+@font-face {
+	font-family: Prompt;
+	src: url("../fonts/Prompt-Regular.ttf");
+}
+body {
+	font-family: "Prompt";
+	background-color: #f2f2f2;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  background-color: #294e7c;
+  border: none;
+  border-radius: 0;
+}
+.top-bar {
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer {
+	margin-top: 20px;
+	background-color: #2f2f2f;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer a {
+	color: #fff;
+}
+.btn-outer-warning {
+	border: 1.8px solid;
+	color: #FF7510;
+	transition: .5s;
+}
+.btn-outer-warning:hover {
+	background-color: #FF7510;
+	color :#fff;
+	border-color: #FF7510;
+}
+.nav li a{
+	color: #fff!important;
+	transition: .45s;
+}
+.nav li{
+	transition: .45s;
+}
+.active > a {
+	background-color: #f76818!important;
+}
+.nav li:hover {
+	background-color: #f76818;
+}
